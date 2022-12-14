@@ -39,6 +39,9 @@ export default {
           this.phone = response.data['results'][0]['phone']
         })
     }
+  },
+  mounted() {
+    this.getUserData();
   }
 }
 </script>
